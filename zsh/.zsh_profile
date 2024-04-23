@@ -1,0 +1,7 @@
+bindkey -s ^f "tmux-sessionizer\n"
+addToPath() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$PATH:$1
+    fi
+}
+addToPath $HOME/.local/bin
