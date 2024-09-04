@@ -15,10 +15,14 @@ local local_plugins = {
 		vim.keymap.set("n", "<M-2>", function() harpoon:list():select(2) end)
 		vim.keymap.set("n", "<M-3>", function() harpoon:list():select(3) end)
 		vim.keymap.set("n", "<M-4>", function() harpoon:list():select(4) end)
+		vim.keymap.set("n", "<M-5>", function() harpoon:list():select(5) end)
+		vim.keymap.set("n", "<M-6>", function() harpoon:list():select(6) end)
 		vim.keymap.set("n", "<leader><M-1>", function() harpoon:list():replace_at(1) end)
 		vim.keymap.set("n", "<leader><M-2>", function() harpoon:list():replace_at(2) end)
 		vim.keymap.set("n", "<leader><M-3>", function() harpoon:list():replace_at(3) end)
 		vim.keymap.set("n", "<leader><M-4>", function() harpoon:list():replace_at(4) end)
+		vim.keymap.set("n", "<leader><M-5>", function() harpoon:list():replace_at(5) end)
+		vim.keymap.set("n", "<leader><M-6>", function() harpoon:list():replace_at(5) end)
 	end
 }
 
