@@ -2,11 +2,15 @@ import = [
   "~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
+[shell]
+program = "/bin/zsh"
+args = ["-l"]
+
 [env]
 TERM = "xterm-256color"
 
 [font]
-size = 7.0
+size = 15.0
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
